@@ -1,4 +1,4 @@
-package rohit;
+package stqa;
  
 import org.openqa.selenium.By;
 
@@ -8,10 +8,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 
 
-public class meesho {
+public class chess {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\AJAY SOMINATH DHAKNE\\\\Downloads\\\\chromedriver_win32\\\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\Anand\\\\Downloads\\\\chromedriver_win32\\\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.get("https://www.chess.com/login");
 		d.findElement(By.id("username")).sendKeys("dhadiwal.anand@gmail.com");
